@@ -1,7 +1,7 @@
 body {
-    font: 15px/1.5 Roboto, Helvetica, sans-serif;
-    padding: 0px;
-    margin: 0px;
+    font: 15px/1.5 Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
     background-color: #f4f4f4;
 }
 
@@ -60,6 +60,7 @@ header #branding img {
     height: 60px;
     width: 190px;
     margin: 0;
+    padding: 0;
 }
 
 header nav {
@@ -76,7 +77,7 @@ header a:hover {
 
 #showcase {
     min-height: 400px;
-    background: #000000;
+    background: url('../img/wacom.jpg') no-repeat 0;
     text-align: center;
     color: #ffffff;
 }
@@ -118,6 +119,7 @@ header a:hover {
 
 #boxes {
     margin-top: 40px;
+
 }
 
 #boxes .box {
@@ -128,6 +130,8 @@ header a:hover {
 
 }
 
+/* Footer */
+
 footer {
     padding: 20px;
     margin-top: 20px;
@@ -137,13 +141,23 @@ footer {
     text-align: right;
 }
 
-footer h3{
-   float: left;
-    display: inline;
+
+footer h3 {
+    float: left;
     color: #ffffff;
+    text-decoration: none;
+    padding: 0 0px 0 90px;
 }
 
+footer p {
+    font-size: 15px;
+}
+
+footer #social img {
+    float: left;
+    height: 45px;
+    width: auto;
+    padding: 5px 10px;
 
 
-
-
+}
